@@ -11,18 +11,12 @@ A RESTful API for offline messaging built with NestJS, TypeScript, and MySQL.
 - Activity logging
 - Swagger API documentation
 
-## Prerequisites
-
-- Node.js (v14 or higher)
-- MySQL (v5.7 or higher)
-- npm or yarn
-
 ## Installation
 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd offline-messaging-api
+cd offline-messaging-api-nestJs
 ```
 
 2. Install dependencies:
@@ -67,28 +61,3 @@ npm run start:dev
 
 ### Activity
 - GET /activity - Get user activity log
-
-## Testing
-
-```bash
-# unit tests
-npm run test
-
-# e2e tests
-npm run test:e2e
-
-# test coverage
-npm run test:cov
-```
-
-## Security
-
-- JWT authentication
-- Password hashing with bcrypt
-- Input validation
-- CORS enabled
-- Rate limiting (TODO)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
